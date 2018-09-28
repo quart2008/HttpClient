@@ -1,0 +1,8 @@
+﻿$PBExportHeader$str_jsonnode.srs
+global type str_jsonnode from structure
+	longptr		l_parentitemhandle
+	longptr		l_childindex
+	longptr		l_itemhandle
+	string		s_key
+end type
+
